@@ -6,11 +6,8 @@ const GsapFromTo = () => {
     gsap.fromTo('#red-box', { 
       scale: 2,
       x: 0, 
-      repeat: -1,
       rotation: 0,
       borderRadius: 0,
-      
-
      },
     {
       x: 250,
