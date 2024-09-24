@@ -9,7 +9,9 @@ const GsapTo = () => {
       x: 250, 
       y: 250,
       repeat: -1,
-      yoyo: true
+      yoyo: true,
+      rotation: 360,
+      ease: 'power1.inOut',
      });
   }, [])
   return (
